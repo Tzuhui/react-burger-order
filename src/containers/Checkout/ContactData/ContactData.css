@@ -1,0 +1,17 @@
+.ContactData {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #efba43;
+}
+.ContactData .wrapper {
+  max-width: 476px;
+  margin: 0 auto;
+}
+.ContactData .title {
+  color: #703B09;
+  font-size: calc(1.2rem + 0.8vw);
+  padding-bottom: 8px;
+  text-align: center;
+  border-bottom: 2px solid #703B09;
+}

@@ -1,0 +1,77 @@
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #703B09;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  z-index: 90;
+}
+
+.nav-logo {
+  font-size: 42px;
+  color: white;
+}
+.nav-logo:hover {
+  color: rgb(250, 242, 233);
+}
+
+.nav-item {
+  display: flex;
+}
+.nav-item a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  border-bottom: 4px solid transparent;
+}
+.nav-item a:hover,
+.nav-item a.active {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-bottom: 4px solid #40A4C8;
+}
+
+@media (max-width: 476px) {
+  .navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .nav-item {
+    display: block;
+    position: absolute;
+    top: 100%;
+    background: #703B09;
+    width: 100%;
+    left: 0;
+    border-top: 1px solid lightgray;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all .5s;
+  }
+  .nav-item.open {
+    max-height: 200px;
+  }
+  .nav-item a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    border-bottom: 0px;
+  }
+  .nav-item a:hover,
+  .nav-item a.active {
+    border-bottom: 0px;
+  }
+}
+
+/* 漢堡選單按鈕 */
+@media (min-width: 476px) {
+  .mobile-menu-btn {
+    display: none;
+  }
+}

@@ -1,0 +1,29 @@
+.main-section {
+  display: flex;
+  height: 100%;
+}
+.main-section .Burger,
+.main-section .BuildControls {
+  padding-top: 30px;
+  width: 50%;
+}
+
+@media (max-width: 769px) {
+  .main-section {
+    flex-direction: column;
+  }
+  .main-section .Burger,
+  .main-section .BuildControls {
+    box-sizing: border-box;
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+  }
+  .main-section .BuildControls {
+    padding-bottom: 64px;
+    margin-top: auto;
+  }
+  .main-section .Burger{
+    min-height: 50vh;
+  }
+}

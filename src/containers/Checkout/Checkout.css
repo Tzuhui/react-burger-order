@@ -1,0 +1,10 @@
+.checkout {
+  height: 100%;
+  display: flex;
+}
+
+@media (max-width: 769px) {
+  .checkout { 
+    flex-direction: column;
+  }
+}

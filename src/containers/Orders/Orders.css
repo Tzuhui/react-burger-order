@@ -1,0 +1,41 @@
+.order-table {
+  padding: 15px;
+}
+
+.table-responsive {
+  max-width: max-content;
+  margin: 0 auto;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.table {
+  background: #fff;
+  width: 100%;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.table thead {
+  background: #944317;
+  color: #fff;
+}
+
+.table th {
+  font-weight: 500;
+  text-align: left;
+  padding: 1rem;
+}
+.table td {
+  text-align: left;
+  padding: 1rem;
+}
+
+.table tbody tr.bg-grey, tbody tr:nth-child(odd) {
+  background: #f1f1f1;
+}
+.table tbody tr:last-child td {
+  border-bottom: none;
+}

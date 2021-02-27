@@ -1,0 +1,18 @@
+.Auth {
+  padding: 30px;
+  box-sizing: border-box;
+}
+.Auth .wrapper {
+  margin: 20px auto;
+  padding: 0px 15px 30px 15px;
+  text-align: center;
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+  .Auth .wrapper {
+    width: 500px;
+  }
+}
