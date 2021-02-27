@@ -27,6 +27,7 @@ jobs:
           touch .env
           echo REACT_APP_BASEURL=${{ secrets.REACT_APP_BASEURL }} >> .env
           echo REACT_APP_IDENTITY_TOKEN=${{ secrets.REACT_APP_IDENTITY_TOKEN }} >> .env
+          echo REACT_APP_PUBLIC_URL=${{ secrets.REACT_APP_PUBLIC_URL }} >> .env
           cat .env
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@master
