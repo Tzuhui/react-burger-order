@@ -14,7 +14,7 @@ const NavBar = () => {
 	}
 	return (
 		<header className={'navbar'}>
-			<a href="/" className="nav-logo"><i className="fas fa-hamburger"></i></a>
+			<NavLink to="/" exact className="nav-logo"><i className="fas fa-hamburger"></i></NavLink>
 			<a href="/" className="nav-logo mobile-menu-btn" onClick={toggleMenu}><i className="fas fa-bars"></i></a>
 
 			<nav className={menuOpen? 'open nav-item' : 'nav-item'}>
