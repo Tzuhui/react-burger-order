@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-burger-order/static/css/main.08139a26.chunk.css",
+    "main.js": "/react-burger-order/static/js/main.7ec09fed.chunk.js",
+    "main.js.map": "/react-burger-order/static/js/main.7ec09fed.chunk.js.map",
+    "runtime-main.js": "/react-burger-order/static/js/runtime-main.c9bc8d69.js",
+    "runtime-main.js.map": "/react-burger-order/static/js/runtime-main.c9bc8d69.js.map",
+    "static/js/2.f3c756cf.chunk.js": "/react-burger-order/static/js/2.f3c756cf.chunk.js",
+    "static/js/2.f3c756cf.chunk.js.map": "/react-burger-order/static/js/2.f3c756cf.chunk.js.map",
+    "index.html": "/react-burger-order/index.html",
+    "static/css/main.08139a26.chunk.css.map": "/react-burger-order/static/css/main.08139a26.chunk.css.map",
+    "static/js/2.f3c756cf.chunk.js.LICENSE.txt": "/react-burger-order/static/js/2.f3c756cf.chunk.js.LICENSE.txt",
+    "static/media/bacon.57bb6384.svg": "/react-burger-order/static/media/bacon.57bb6384.svg",
+    "static/media/bread-bottom.61838c30.svg": "/react-burger-order/static/media/bread-bottom.61838c30.svg",
+    "static/media/bread-top.3a881882.svg": "/react-burger-order/static/media/bread-top.3a881882.svg",
+    "static/media/cheese.c5533f59.svg": "/react-burger-order/static/media/cheese.c5533f59.svg",
+    "static/media/meat.a90b51b3.svg": "/react-burger-order/static/media/meat.a90b51b3.svg",
+    "static/media/salad.4779368a.svg": "/react-burger-order/static/media/salad.4779368a.svg",
+    "static/media/tomato.fe212b00.svg": "/react-burger-order/static/media/tomato.fe212b00.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9bc8d69.js",
+    "static/js/2.f3c756cf.chunk.js",
+    "static/css/main.08139a26.chunk.css",
+    "static/js/main.7ec09fed.chunk.js"
+  ]
+}
